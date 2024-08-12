@@ -1,0 +1,24 @@
+{
+  "originHash" : "0e8d600914d24c05f413db002d92d892a8b8fc7562ddb09d7ec821608c905c6d",
+  "pins" : [
+    {
+      "identity" : "ios-maps-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googlemaps/ios-maps-sdk",
+      "state" : {
+        "revision" : "0cd72dd45109b0225dd920ff17e0362a96489ec0",
+        "version" : "9.0.0"
+      }
+    },
+    {
+      "identity" : "linkpreview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NuPlay/LinkPreview",
+      "state" : {
+        "revision" : "14ed9e55ee4ce651de85ce3a86daceba10214fea",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}

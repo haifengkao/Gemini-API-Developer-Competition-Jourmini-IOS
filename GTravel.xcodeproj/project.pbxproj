@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9C0496D2C4A728300FCB3F9 /* GTravelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0496C2C4A728300FCB3F9 /* GTravelApp.swift */; };
+		F9C049712C4A728400FCB3F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C049702C4A728400FCB3F9 /* Assets.xcassets */; };
+		F9C049742C4A728400FCB3F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C049732C4A728400FCB3F9 /* Preview Assets.xcassets */; };
+		F9C0497F2C4A728500FCB3F9 /* GTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0497E2C4A728500FCB3F9 /* GTravelTests.swift */; };
+		F9C049892C4A728500FCB3F9 /* GTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C049882C4A728500FCB3F9 /* GTravelUITests.swift */; };
+		F9C0498B2C4A728500FCB3F9 /* GTravelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0498A2C4A728500FCB3F9 /* GTravelUITestsLaunchTests.swift */; };
+		F9C049982C4A72B400FCB3F9 /* TaiwanTripPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C049972C4A72B400FCB3F9 /* TaiwanTripPlannerView.swift */; };
+		F9C0499B2C4BAB7200FCB3F9 /* LinkPreview in Frameworks */ = {isa = PBXBuildFile; productRef = F9C0499A2C4BAB7200FCB3F9 /* LinkPreview */; };
+		F9C0499D2C4BC7E800FCB3F9 /* KnowledgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0499C2C4BC7E800FCB3F9 /* KnowledgeView.swift */; };
+		F9C0499F2C4BC9D400FCB3F9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0499E2C4BC9D400FCB3F9 /* MainView.swift */; };
+		F9C049A12C4BD8F300FCB3F9 /* TaipeiAttractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C049A02C4BD8F300FCB3F9 /* TaipeiAttractionView.swift */; };
+		F9D8CB382C64D368000C7B4F /* BrowsePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB372C64D368000C7B4F /* BrowsePage.swift */; };
+		F9D8CB3A2C661AAD000C7B4F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB392C661AAD000C7B4F /* AppState.swift */; };
+		F9D8CB422C66BFD6000C7B4F /* TypeQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB412C66BFD6000C7B4F /* TypeQuestion.swift */; };
+		F9D8CB442C67FDD4000C7B4F /* GoogleMapApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB432C67FDD4000C7B4F /* GoogleMapApi.swift */; };
+		F9D8CB462C682307000C7B4F /* SelectableTextOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB452C682307000C7B4F /* SelectableTextOptions.swift */; };
+		F9D8CB482C68DCF4000C7B4F /* GoogleTraffic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB472C68DCF4000C7B4F /* GoogleTraffic.swift */; };
+		F9D8CB4A2C68DFB9000C7B4F /* GoogleTrafficMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB492C68DFB9000C7B4F /* GoogleTrafficMap.swift */; };
+		F9D8CB542C69031F000C7B4F /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB4B2C69031F000C7B4F /* Direction.swift */; };
+		F9D8CB552C69031F000C7B4F /* DirectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB4C2C69031F000C7B4F /* DirectionError.swift */; };
+		F9D8CB562C69031F000C7B4F /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB4D2C69031F000C7B4F /* Directions.swift */; };
+		F9D8CB572C69031F000C7B4F /* DirectionType+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB4E2C69031F000C7B4F /* DirectionType+.swift */; };
+		F9D8CB582C69031F000C7B4F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB4F2C69031F000C7B4F /* Extension.swift */; };
+		F9D8CB592C69031F000C7B4F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F9D8CB502C69031F000C7B4F /* LICENSE */; };
+		F9D8CB5A2C69031F000C7B4F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F9D8CB512C69031F000C7B4F /* README.md */; };
+		F9D8CB5B2C69031F000C7B4F /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB522C69031F000C7B4F /* Route.swift */; };
+		F9D8CB5D2C690899000C7B4F /* RouteMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB5C2C690899000C7B4F /* RouteMapView.swift */; };
+		F9D8CB602C69354D000C7B4F /* DailyItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB5F2C69354D000C7B4F /* DailyItineraryView.swift */; };
+		F9D8CB622C695417000C7B4F /* TripData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB612C695417000C7B4F /* TripData.swift */; };
+		F9D8CB642C6A328E000C7B4F /* PlanManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB632C6A328E000C7B4F /* PlanManagementView.swift */; };
+		F9D8CB662C6A33DD000C7B4F /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB652C6A33DD000C7B4F /* UsersView.swift */; };
+		F9D8CB682C6A3AA0000C7B4F /* ItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB672C6A3AA0000C7B4F /* ItineraryView.swift */; };
+		F9D8CB6B2C6AAC2B000C7B4F /* HybridApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB6A2C6AAC2B000C7B4F /* HybridApi.swift */; };
+		F9D8CB6D2C6AAC6D000C7B4F /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB6C2C6AAC6D000C7B4F /* ApiClient.swift */; };
+		F9D8CB6F2C6AAD2C000C7B4F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8CB6E2C6AAD2C000C7B4F /* SearchView.swift */; };
+		F9DA97EF2C6342B800093EC5 /* SelectableImageGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DA97EE2C6342B800093EC5 /* SelectableImageGallery.swift */; };
+		F9DCAAE22C5E3AE5004EE680 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = F9DCAAE12C5E3AE5004EE680 /* GoogleMaps */; };
+		F9DCAAE62C5E5396004EE680 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCAAE52C5E5395004EE680 /* MapView.swift */; };
+		F9DCAAE82C6010EE004EE680 /* GeminiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCAAE72C6010EE004EE680 /* GeminiModel.swift */; };
+		F9DCAAEA2C610C21004EE680 /* GTravelPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCAAE92C610C21004EE680 /* GTravelPlannerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9C0497B2C4A728500FCB3F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9C049612C4A728300FCB3F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9C049682C4A728300FCB3F9;
+			remoteInfo = GTravel;
+		};
+		F9C049852C4A728500FCB3F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9C049612C4A728300FCB3F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9C049682C4A728300FCB3F9;
+			remoteInfo = GTravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9C049692C4A728300FCB3F9 /* GTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C0496C2C4A728300FCB3F9 /* GTravelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTravelApp.swift; sourceTree = "<group>"; };
+		F9C049702C4A728400FCB3F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9C049732C4A728400FCB3F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9C049752C4A728400FCB3F9 /* GTravel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GTravel.entitlements; sourceTree = "<group>"; };
+		F9C0497A2C4A728500FCB3F9 /* GTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C0497E2C4A728500FCB3F9 /* GTravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTravelTests.swift; sourceTree = "<group>"; };
+		F9C049842C4A728500FCB3F9 /* GTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C049882C4A728500FCB3F9 /* GTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTravelUITests.swift; sourceTree = "<group>"; };
+		F9C0498A2C4A728500FCB3F9 /* GTravelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTravelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9C049972C4A72B400FCB3F9 /* TaiwanTripPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanTripPlannerView.swift; sourceTree = "<group>"; };
+		F9C0499C2C4BC7E800FCB3F9 /* KnowledgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeView.swift; sourceTree = "<group>"; };
+		F9C0499E2C4BC9D400FCB3F9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F9C049A02C4BD8F300FCB3F9 /* TaipeiAttractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaipeiAttractionView.swift; sourceTree = "<group>"; };
+		F9D8CB372C64D368000C7B4F /* BrowsePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsePage.swift; sourceTree = "<group>"; };
+		F9D8CB392C661AAD000C7B4F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		F9D8CB412C66BFD6000C7B4F /* TypeQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeQuestion.swift; sourceTree = "<group>"; };
+		F9D8CB432C67FDD4000C7B4F /* GoogleMapApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapApi.swift; sourceTree = "<group>"; };
+		F9D8CB452C682307000C7B4F /* SelectableTextOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableTextOptions.swift; sourceTree = "<group>"; };
+		F9D8CB472C68DCF4000C7B4F /* GoogleTraffic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleTraffic.swift; sourceTree = "<group>"; };
+		F9D8CB492C68DFB9000C7B4F /* GoogleTrafficMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleTrafficMap.swift; sourceTree = "<group>"; };
+		F9D8CB4B2C69031F000C7B4F /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		F9D8CB4C2C69031F000C7B4F /* DirectionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionError.swift; sourceTree = "<group>"; };
+		F9D8CB4D2C69031F000C7B4F /* Directions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
+		F9D8CB4E2C69031F000C7B4F /* DirectionType+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DirectionType+.swift"; sourceTree = "<group>"; };
+		F9D8CB4F2C69031F000C7B4F /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		F9D8CB502C69031F000C7B4F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F9D8CB512C69031F000C7B4F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F9D8CB522C69031F000C7B4F /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		F9D8CB5C2C690899000C7B4F /* RouteMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteMapView.swift; sourceTree = "<group>"; };
+		F9D8CB5F2C69354D000C7B4F /* DailyItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyItineraryView.swift; sourceTree = "<group>"; };
+		F9D8CB612C695417000C7B4F /* TripData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripData.swift; sourceTree = "<group>"; };
+		F9D8CB632C6A328E000C7B4F /* PlanManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanManagementView.swift; sourceTree = "<group>"; };
+		F9D8CB652C6A33DD000C7B4F /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		F9D8CB672C6A3AA0000C7B4F /* ItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryView.swift; sourceTree = "<group>"; };
+		F9D8CB6A2C6AAC2B000C7B4F /* HybridApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridApi.swift; sourceTree = "<group>"; };
+		F9D8CB6C2C6AAC6D000C7B4F /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		F9D8CB6E2C6AAD2C000C7B4F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		F9DA97EE2C6342B800093EC5 /* SelectableImageGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableImageGallery.swift; sourceTree = "<group>"; };
+		F9DCAAE52C5E5395004EE680 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F9DCAAE72C6010EE004EE680 /* GeminiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiModel.swift; sourceTree = "<group>"; };
+		F9DCAAE92C610C21004EE680 /* GTravelPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTravelPlannerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9C049662C4A728300FCB3F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DCAAE22C5E3AE5004EE680 /* GoogleMaps in Frameworks */,
+				F9C0499B2C4BAB7200FCB3F9 /* LinkPreview in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C049772C4A728500FCB3F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C049812C4A728500FCB3F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9C049602C4A728300FCB3F9 = {
+			isa = PBXGroup;
+			children = (
+				F9C0496B2C4A728300FCB3F9 /* GTravel */,
+				F9C0497D2C4A728500FCB3F9 /* GTravelTests */,
+				F9C049872C4A728500FCB3F9 /* GTravelUITests */,
+				F9C0496A2C4A728300FCB3F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9C0496A2C4A728300FCB3F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9C049692C4A728300FCB3F9 /* GTravel.app */,
+				F9C0497A2C4A728500FCB3F9 /* GTravelTests.xctest */,
+				F9C049842C4A728500FCB3F9 /* GTravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9C0496B2C4A728300FCB3F9 /* GTravel */ = {
+			isa = PBXGroup;
+			children = (
+				F9D8CB692C6AAC0E000C7B4F /* LangAgentApi */,
+				F9D8CB652C6A33DD000C7B4F /* UsersView.swift */,
+				F9D8CB5E2C6934C7000C7B4F /* Map */,
+				F9D8CB532C69031F000C7B4F /* Direction */,
+				F9C0496C2C4A728300FCB3F9 /* GTravelApp.swift */,
+				F9C049702C4A728400FCB3F9 /* Assets.xcassets */,
+				F9C049752C4A728400FCB3F9 /* GTravel.entitlements */,
+				F9C049722C4A728400FCB3F9 /* Preview Content */,
+				F9C049972C4A72B400FCB3F9 /* TaiwanTripPlannerView.swift */,
+				F9C0499C2C4BC7E800FCB3F9 /* KnowledgeView.swift */,
+				F9C0499E2C4BC9D400FCB3F9 /* MainView.swift */,
+				F9C049A02C4BD8F300FCB3F9 /* TaipeiAttractionView.swift */,
+				F9DCAAE52C5E5395004EE680 /* MapView.swift */,
+				F9DCAAE72C6010EE004EE680 /* GeminiModel.swift */,
+				F9DCAAE92C610C21004EE680 /* GTravelPlannerView.swift */,
+				F9DA97EE2C6342B800093EC5 /* SelectableImageGallery.swift */,
+				F9D8CB372C64D368000C7B4F /* BrowsePage.swift */,
+				F9D8CB392C661AAD000C7B4F /* AppState.swift */,
+				F9D8CB412C66BFD6000C7B4F /* TypeQuestion.swift */,
+				F9D8CB432C67FDD4000C7B4F /* GoogleMapApi.swift */,
+				F9D8CB452C682307000C7B4F /* SelectableTextOptions.swift */,
+				F9D8CB612C695417000C7B4F /* TripData.swift */,
+				F9D8CB632C6A328E000C7B4F /* PlanManagementView.swift */,
+				F9D8CB672C6A3AA0000C7B4F /* ItineraryView.swift */,
+			);
+			path = GTravel;
+			sourceTree = "<group>";
+		};
+		F9C049722C4A728400FCB3F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F9D8CB6E2C6AAD2C000C7B4F /* SearchView.swift */,
+				F9C049732C4A728400FCB3F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9C0497D2C4A728500FCB3F9 /* GTravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9C0497E2C4A728500FCB3F9 /* GTravelTests.swift */,
+			);
+			path = GTravelTests;
+			sourceTree = "<group>";
+		};
+		F9C049872C4A728500FCB3F9 /* GTravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9C049882C4A728500FCB3F9 /* GTravelUITests.swift */,
+				F9C0498A2C4A728500FCB3F9 /* GTravelUITestsLaunchTests.swift */,
+			);
+			path = GTravelUITests;
+			sourceTree = "<group>";
+		};
+		F9D8CB532C69031F000C7B4F /* Direction */ = {
+			isa = PBXGroup;
+			children = (
+				F9D8CB4B2C69031F000C7B4F /* Direction.swift */,
+				F9D8CB4C2C69031F000C7B4F /* DirectionError.swift */,
+				F9D8CB4D2C69031F000C7B4F /* Directions.swift */,
+				F9D8CB4E2C69031F000C7B4F /* DirectionType+.swift */,
+				F9D8CB4F2C69031F000C7B4F /* Extension.swift */,
+				F9D8CB502C69031F000C7B4F /* LICENSE */,
+				F9D8CB512C69031F000C7B4F /* README.md */,
+				F9D8CB522C69031F000C7B4F /* Route.swift */,
+			);
+			path = Direction;
+			sourceTree = "<group>";
+		};
+		F9D8CB5E2C6934C7000C7B4F /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F9D8CB5C2C690899000C7B4F /* RouteMapView.swift */,
+				F9D8CB472C68DCF4000C7B4F /* GoogleTraffic.swift */,
+				F9D8CB492C68DFB9000C7B4F /* GoogleTrafficMap.swift */,
+				F9D8CB5F2C69354D000C7B4F /* DailyItineraryView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		F9D8CB692C6AAC0E000C7B4F /* LangAgentApi */ = {
+			isa = PBXGroup;
+			children = (
+				F9D8CB6A2C6AAC2B000C7B4F /* HybridApi.swift */,
+				F9D8CB6C2C6AAC6D000C7B4F /* ApiClient.swift */,
+			);
+			path = LangAgentApi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9C049682C4A728300FCB3F9 /* GTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C0498E2C4A728500FCB3F9 /* Build configuration list for PBXNativeTarget "GTravel" */;
+			buildPhases = (
+				F9C049652C4A728300FCB3F9 /* Sources */,
+				F9C049662C4A728300FCB3F9 /* Frameworks */,
+				F9C049672C4A728300FCB3F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTravel;
+			packageProductDependencies = (
+				F9C0499A2C4BAB7200FCB3F9 /* LinkPreview */,
+				F9DCAAE12C5E3AE5004EE680 /* GoogleMaps */,
+			);
+			productName = GTravel;
+			productReference = F9C049692C4A728300FCB3F9 /* GTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9C049792C4A728500FCB3F9 /* GTravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C049912C4A728500FCB3F9 /* Build configuration list for PBXNativeTarget "GTravelTests" */;
+			buildPhases = (
+				F9C049762C4A728500FCB3F9 /* Sources */,
+				F9C049772C4A728500FCB3F9 /* Frameworks */,
+				F9C049782C4A728500FCB3F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9C0497C2C4A728500FCB3F9 /* PBXTargetDependency */,
+			);
+			name = GTravelTests;
+			productName = GTravelTests;
+			productReference = F9C0497A2C4A728500FCB3F9 /* GTravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9C049832C4A728500FCB3F9 /* GTravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C049942C4A728500FCB3F9 /* Build configuration list for PBXNativeTarget "GTravelUITests" */;
+			buildPhases = (
+				F9C049802C4A728500FCB3F9 /* Sources */,
+				F9C049812C4A728500FCB3F9 /* Frameworks */,
+				F9C049822C4A728500FCB3F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9C049862C4A728500FCB3F9 /* PBXTargetDependency */,
+			);
+			name = GTravelUITests;
+			productName = GTravelUITests;
+			productReference = F9C049842C4A728500FCB3F9 /* GTravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9C049612C4A728300FCB3F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F9C049682C4A728300FCB3F9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F9C049792C4A728500FCB3F9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F9C049682C4A728300FCB3F9;
+					};
+					F9C049832C4A728500FCB3F9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F9C049682C4A728300FCB3F9;
+					};
+				};
+			};
+			buildConfigurationList = F9C049642C4A728300FCB3F9 /* Build configuration list for PBXProject "GTravel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9C049602C4A728300FCB3F9;
+			packageReferences = (
+				F9C049992C4BAB7200FCB3F9 /* XCRemoteSwiftPackageReference "LinkPreview" */,
+				F9DCAAE02C5E3AE5004EE680 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
+			productRefGroup = F9C0496A2C4A728300FCB3F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9C049682C4A728300FCB3F9 /* GTravel */,
+				F9C049792C4A728500FCB3F9 /* GTravelTests */,
+				F9C049832C4A728500FCB3F9 /* GTravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9C049672C4A728300FCB3F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D8CB592C69031F000C7B4F /* LICENSE in Resources */,
+				F9C049742C4A728400FCB3F9 /* Preview Assets.xcassets in Resources */,
+				F9D8CB5A2C69031F000C7B4F /* README.md in Resources */,
+				F9C049712C4A728400FCB3F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C049782C4A728500FCB3F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C049822C4A728500FCB3F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9C049652C4A728300FCB3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D8CB602C69354D000C7B4F /* DailyItineraryView.swift in Sources */,
+				F9D8CB462C682307000C7B4F /* SelectableTextOptions.swift in Sources */,
+				F9D8CB622C695417000C7B4F /* TripData.swift in Sources */,
+				F9D8CB562C69031F000C7B4F /* Directions.swift in Sources */,
+				F9D8CB6B2C6AAC2B000C7B4F /* HybridApi.swift in Sources */,
+				F9D8CB6F2C6AAD2C000C7B4F /* SearchView.swift in Sources */,
+				F9DCAAE62C5E5396004EE680 /* MapView.swift in Sources */,
+				F9D8CB662C6A33DD000C7B4F /* UsersView.swift in Sources */,
+				F9D8CB482C68DCF4000C7B4F /* GoogleTraffic.swift in Sources */,
+				F9D8CB542C69031F000C7B4F /* Direction.swift in Sources */,
+				F9C0499D2C4BC7E800FCB3F9 /* KnowledgeView.swift in Sources */,
+				F9D8CB442C67FDD4000C7B4F /* GoogleMapApi.swift in Sources */,
+				F9DA97EF2C6342B800093EC5 /* SelectableImageGallery.swift in Sources */,
+				F9DCAAEA2C610C21004EE680 /* GTravelPlannerView.swift in Sources */,
+				F9C0496D2C4A728300FCB3F9 /* GTravelApp.swift in Sources */,
+				F9D8CB642C6A328E000C7B4F /* PlanManagementView.swift in Sources */,
+				F9D8CB422C66BFD6000C7B4F /* TypeQuestion.swift in Sources */,
+				F9C0499F2C4BC9D400FCB3F9 /* MainView.swift in Sources */,
+				F9D8CB5D2C690899000C7B4F /* RouteMapView.swift in Sources */,
+				F9D8CB3A2C661AAD000C7B4F /* AppState.swift in Sources */,
+				F9D8CB552C69031F000C7B4F /* DirectionError.swift in Sources */,
+				F9D8CB582C69031F000C7B4F /* Extension.swift in Sources */,
+				F9C049982C4A72B400FCB3F9 /* TaiwanTripPlannerView.swift in Sources */,
+				F9DCAAE82C6010EE004EE680 /* GeminiModel.swift in Sources */,
+				F9D8CB572C69031F000C7B4F /* DirectionType+.swift in Sources */,
+				F9D8CB382C64D368000C7B4F /* BrowsePage.swift in Sources */,
+				F9D8CB682C6A3AA0000C7B4F /* ItineraryView.swift in Sources */,
+				F9C049A12C4BD8F300FCB3F9 /* TaipeiAttractionView.swift in Sources */,
+				F9D8CB5B2C69031F000C7B4F /* Route.swift in Sources */,
+				F9D8CB4A2C68DFB9000C7B4F /* GoogleTrafficMap.swift in Sources */,
+				F9D8CB6D2C6AAC6D000C7B4F /* ApiClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C049762C4A728500FCB3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C0497F2C4A728500FCB3F9 /* GTravelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C049802C4A728500FCB3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C0498B2C4A728500FCB3F9 /* GTravelUITestsLaunchTests.swift in Sources */,
+				F9C049892C4A728500FCB3F9 /* GTravelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9C0497C2C4A728500FCB3F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9C049682C4A728300FCB3F9 /* GTravel */;
+			targetProxy = F9C0497B2C4A728500FCB3F9 /* PBXContainerItemProxy */;
+		};
+		F9C049862C4A728500FCB3F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9C049682C4A728300FCB3F9 /* GTravel */;
+			targetProxy = F9C049852C4A728500FCB3F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F9C0498C2C4A728500FCB3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9C0498D2C4A728500FCB3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F9C0498F2C4A728500FCB3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GTravel/GTravel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GTravel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeminiForTheWin.GTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9C049902C4A728500FCB3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GTravel/GTravel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GTravel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeminiForTheWin.GTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9C049922C4A728500FCB3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeminiForTheWin.GTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTravel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GTravel";
+			};
+			name = Debug;
+		};
+		F9C049932C4A728500FCB3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeminiForTheWin.GTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTravel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GTravel";
+			};
+			name = Release;
+		};
+		F9C049952C4A728500FCB3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeminiForTheWin.GTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GTravel;
+			};
+			name = Debug;
+		};
+		F9C049962C4A728500FCB3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeminiForTheWin.GTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GTravel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9C049642C4A728300FCB3F9 /* Build configuration list for PBXProject "GTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C0498C2C4A728500FCB3F9 /* Debug */,
+				F9C0498D2C4A728500FCB3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9C0498E2C4A728500FCB3F9 /* Build configuration list for PBXNativeTarget "GTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C0498F2C4A728500FCB3F9 /* Debug */,
+				F9C049902C4A728500FCB3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9C049912C4A728500FCB3F9 /* Build configuration list for PBXNativeTarget "GTravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C049922C4A728500FCB3F9 /* Debug */,
+				F9C049932C4A728500FCB3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9C049942C4A728500FCB3F9 /* Build configuration list for PBXNativeTarget "GTravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C049952C4A728500FCB3F9 /* Debug */,
+				F9C049962C4A728500FCB3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F9C049992C4BAB7200FCB3F9 /* XCRemoteSwiftPackageReference "LinkPreview" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NuPlay/LinkPreview";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		F9DCAAE02C5E3AE5004EE680 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F9C0499A2C4BAB7200FCB3F9 /* LinkPreview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9C049992C4BAB7200FCB3F9 /* XCRemoteSwiftPackageReference "LinkPreview" */;
+			productName = LinkPreview;
+		};
+		F9DCAAE12C5E3AE5004EE680 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9DCAAE02C5E3AE5004EE680 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F9C049612C4A728300FCB3F9 /* Project object */;
+}
